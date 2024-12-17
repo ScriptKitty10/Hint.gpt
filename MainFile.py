@@ -15,7 +15,6 @@ import time
 
 
 
-chat_model = OpenAI(api_key="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")
 
 def transcribe_with_faster_whisper(audio_data):
 
