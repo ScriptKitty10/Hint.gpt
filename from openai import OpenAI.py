@@ -10,10 +10,8 @@ from elevenlabs import ElevenLabs
 
 
 client = ElevenLabs(
-    api_key = "sk_fb9de37d255f36e687fd0fdb64ef1b0db6bec61a0251453c"
 )
 
-chat_model = OpenAI(api_key="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")
 
 messages_spot=[
     {
